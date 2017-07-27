@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div  id="Tabla"></div> 
+
+    @section scripts{
+        <!--Adding Theme for jTable Grid-->
+        <!--You can choose any type of theme from the themes folder-->
+<link href="~/Scripts/jtable/themes/metro/blue/jtable.min.css" rel="stylesheet" />
+ 
+        <link  type="text/css" rel="stylesheet" href ="http://jtable.org/Content/themes/metroblue/jquery-ui.css"    />
+         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+         <script  src ="~/Scripts/jquery-ui-1.9.2.min.js"></script>  
+
+            <!--Adding jTable Plugin-->
+            <script  src ="~/Scripts/jtable/jquery.jtable.min.js"></script>  
+
+                <!--Adding our script file-->
+                <script  src ="~/Scripts/Script.js"></script>  
+                    
+    }
+    
